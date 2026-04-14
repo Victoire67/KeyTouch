@@ -1,10 +1,9 @@
-
-
+import Keyboard from "./Components/Keyboard"
 function App() {
 
   return (
     <>
-     
+     <Keyboard />
     </>
   )
 }

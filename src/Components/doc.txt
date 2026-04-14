@@ -1,0 +1,22 @@
+File 1 : Key.tsx
+
+=> What does this file do ? :
+ - It imports the useEffect hooks from React
+ - Creates the KeyType , responsible for mainting the type of keys 
+    Elements inside KEYTYPE ARE : value , isClicked , handleResetIsClicked
+
+
+=> Functionalities and functions :
+- Displays the Key component ,
+- When we click a key ,  If the yes property of a key is true , 
+    we check if it is wright and give it a colour of green other wise red ,
+    after the set timeout , we set the isClicked back to false;
+- This same file has a side effect of timeout, this means that : 
+ - everytime a key loads for the first time the effect runs .
+    - Inside the effect here are things that happen : 
+        -   A timeout of 2000 ms that runs the prop (handleResetIsClicked) with the value of the key
+        This function will change the value of the list used to display the keyboard
+
+When should we consider that a event is right ?
+->When we enter in the check mode we keep the value of text as it is .
+->We keep track 
